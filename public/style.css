@@ -1,0 +1,139 @@
+/*home page css */
+*{
+    padding: 0;
+    margin: 0;
+    background-color: gray;
+}
+    #container_home{
+        display: grid;
+        place-content: center;
+        margin-top: 14%;
+
+    }
+    #tab {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    #tab td, #tab thead {
+    border: 1px solid orangered;
+    padding: 8px;
+    }
+
+    #tab tr td{
+        background-color: aliceblue;
+        font-size:medium;
+       font-weight: 500;
+    }
+
+
+    #tab thead td{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: teal;
+    color: white;
+    font-size: larger;
+    font-weight: 600;
+    }
+    #heading-home{
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 15px;
+
+    }
+    #heading-home h3{
+        color: aliceblue;
+        font-style: italic;
+    }
+
+    #an_home{
+        margin-top: 10%;
+        text-align: center;
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: larger;
+    }
+
+/* form*/
+    #container{
+    display: grid;
+    place-content: center;
+    margin-top:7% ;
+    height: auto;
+
+}
+
+#heading{
+    text-align: center;
+    background-color: #022c44;
+    font-size: larger;
+    margin-bottom: 15px;
+
+}
+#heading h3{
+    background-color: #022c44;
+    color: aliceblue;
+}
+form hr{
+    color:aliceblue;
+    margin-bottom: 15px;
+
+}
+form{
+    background-color: #022c44;
+    padding: 20px;
+
+
+}
+label{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: #022c44;
+
+}
+.f-ele {
+    margin-bottom: 40px;
+    background-color: #022c44;
+}
+form span{
+    background-color: #022c44;
+    color:aliceblue;
+    font-size: large;
+}
+form textarea{
+    background-color: teal;
+
+}
+
+input
+{
+    width: 100%;
+}
+
+input[type="text"],input[type="email"],input[type="password"]
+{
+    background-color: teal;
+    height: 25px;
+}
+
+input[type="submit"]
+{
+    width:30%;
+    height: 30px;
+    color: teal;
+    font-size: 17px;
+    font-weight: 800;
+    background-color: aquamarine;
+}
+
+textarea
+{
+    width: 100%;
+}
+input[type="radio"],input[type="checkbox"]
+{
+    width: 10%;
+}
+
